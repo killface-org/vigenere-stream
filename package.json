@@ -1,0 +1,31 @@
+{
+    "name": "vigenere-stream",
+    "description": "A node.js Stream API for encypting/decrypting files using the Vigenere cipher",
+    "version": "0.1.0",
+    "homepage": "https://github.com/killface-org/vigenere-stream",
+    "author": {
+        "name": "Brian Hodgen"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/killface-org/vigenere-stream.git"
+    },
+    "bugs": {
+        "url": "https://github.com/killface-org/vigenere-stream/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT"
+        }
+    ],
+    "main": "index.js",
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "preferGlobal": "true",
+    "bin": {
+        "vc-encrypt" : "vc-encrypt.js",
+        "vc-decrypt" : "vc-decrypt.js"
+    },
+    "keywords": ["vigenere","stream"]
+}
